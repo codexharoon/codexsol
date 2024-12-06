@@ -22,7 +22,7 @@ export function Services() {
     {
       icon: <PenToolIcon className="w-8 h-8 text-primary" />,
       title: "Graphic Design",
-      description: "Creative designs that capture your brand's essence",
+      description: "Creative designs that capture your brand&apos;s essence",
     },
   ];
 

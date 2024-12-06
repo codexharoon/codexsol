@@ -59,7 +59,7 @@ export function Footer() {
           <div>
             <h3 className="font-bold mb-4">Newsletter</h3>
             <p className="text-gray-600 mb-4">
-              Let's be friends! Get our latest updates.
+              Let&apos;s be friends! Get our latest updates.
             </p>
             <div className="flex gap-2">
               <Input type="email" placeholder="Your Email" />
