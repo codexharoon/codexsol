@@ -15,7 +15,7 @@ export function Contact() {
             <Input type="text" placeholder="Your Name" />
             <Input type="email" placeholder="Your Email" />
           </div>
-          <Button className="w-full bg-[#FF7575] hover:bg-[#FF7575]/90">
+          <Button className="w-full bg-[#0076BE] hover:bg-[#0076BE]/90">
             Send Email
           </Button>
         </div>

@@ -20,7 +20,7 @@ export function Header() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <Link href="/" className="flex items-center space-x-2">
-              <Image src="/logo.svg" alt="Code X Sol" width={40} height={40} />
+              <Image src="/logo.png" alt="Code X Sol" width={40} height={40} />
               <span className="text-primary text-xl font-bold">Code X Sol</span>
             </Link>
             <nav className="hidden md:flex items-center space-x-8">

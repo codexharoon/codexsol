@@ -11,26 +11,22 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <Link href="/" className="flex items-center space-x-2 mb-4">
-              <Image
-                src="/logo.svg"
-                alt="Code Station21"
-                width={40}
-                height={40}
-              />
-              <span className="text-xl font-bold">Code Station21</span>
+              <Image src="/logo.png" alt="Code x Sol" width={40} height={40} />
+              <span className="text-xl font-bold">Code x Sol</span>
             </Link>
             <p className="text-gray-600 mb-4">
-              We are a creative web design agency with a mission to create
-              beautiful websites.
+              We are a creative Software Development agency with a mission to
+              create the most beautiful and user-friendly products that help
+              businesses grow.
             </p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-gray-600 hover:text-[#FF7575]">
+              <Link href="#" className="text-gray-600 hover:text-[#0076BE]">
                 <FacebookIcon className="w-5 h-5" />
               </Link>
-              <Link href="#" className="text-gray-600 hover:text-[#FF7575]">
+              <Link href="#" className="text-gray-600 hover:text-[#0076BE]">
                 <TwitterIcon className="w-5 h-5" />
               </Link>
-              <Link href="#" className="text-gray-600 hover:text-[#FF7575]">
+              <Link href="#" className="text-gray-600 hover:text-[#0076BE]">
                 <InstagramIcon className="w-5 h-5" />
               </Link>
             </div>
@@ -39,22 +35,22 @@ export function Footer() {
             <h3 className="font-bold mb-4">Services</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="#" className="text-gray-600 hover:text-[#FF7575]">
+                <Link href="#" className="text-gray-600 hover:text-[#0076BE]">
                   Web Development
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-600 hover:text-[#FF7575]">
+                <Link href="#" className="text-gray-600 hover:text-[#0076BE]">
                   App Development
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-600 hover:text-[#FF7575]">
+                <Link href="#" className="text-gray-600 hover:text-[#0076BE]">
                   UI/UX Design
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-600 hover:text-[#FF7575]">
+                <Link href="#" className="text-gray-600 hover:text-[#0076BE]">
                   Graphic Design
                 </Link>
               </li>
@@ -67,7 +63,7 @@ export function Footer() {
             </p>
             <div className="flex gap-2">
               <Input type="email" placeholder="Your Email" />
-              <Button className="bg-[#FF7575] hover:bg-[#FF7575]/90">
+              <Button className="bg-[#0076BE] hover:bg-[#0076BE]/90">
                 Subscribe
               </Button>
             </div>
@@ -93,7 +89,7 @@ export function Footer() {
           </div>
         </div>
         <div className="border-t pt-6 text-center text-gray-600">
-          © 2024 Code Station21. All Rights Reserved.
+          © {new Date().getFullYear()} Code x Sol. All Rights Reserved.
         </div>
       </div>
     </footer>
