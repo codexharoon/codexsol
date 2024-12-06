@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { motion, useAnimation, HTMLMotionProps } from "framer-motion";
+import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 function CountingNumber({
