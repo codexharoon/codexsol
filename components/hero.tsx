@@ -2,9 +2,9 @@ import { Button } from "@/components/ui/button";
 
 export function Hero() {
   return (
-    <section className="pt-24 pb-12">
+    <section className="pt-24 pb-12 h-screen flex items-center bg-gradient-to-l from-blue-300">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-2 gap-8 items-center">
+        <div className="grid md:grid-cols-2 space-y-8 gap-8 items-center">
           <div>
             <h1 className="text-5xl font-bold mb-4">
               We are
@@ -12,7 +12,7 @@ export function Hero() {
               Code x Sol
             </h1>
             <p className="text-xl text-gray-600 mb-8">Your Dream, We Build</p>
-            <p className="text-gray-600 md:text-lg mb-8 break-words">
+            <p className="text-gray-600 border-l-4 border-blue-600 pl-2 md:text-lg mb-8 break-words">
               We are a creative Software Development agency with a mission to
               create the most beautiful and user-friendly products that help
               businesses grow.
@@ -31,7 +31,7 @@ export function Hero() {
           </div>
 
           <iframe
-            className="w-[250px] h-[250px] sm:w-[400px] sm:h-[400px]"
+            className="w-[250px] h-[250px] sm:w-[400px] sm:h-[400px] lg:w-[600px] lg:h-[600px]"
             src="https://lottie.host/embed/34b32f1f-0fa2-4f50-8123-518810565f99/8k9aApXNgF.lottie"
           ></iframe>
         </div>
