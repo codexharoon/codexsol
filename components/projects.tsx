@@ -33,8 +33,8 @@ export function Projects() {
           <br />
           Recently Done
         </h2>
-        <Tabs defaultValue="all">
-          <TabsList className="mb-8">
+        <Tabs defaultValue="all" className="">
+          <TabsList className="mb-8 flex flex-wrap bg-slate-100">
             <TabsTrigger value="all">All Categories</TabsTrigger>
             <TabsTrigger value="web">Web Development</TabsTrigger>
             <TabsTrigger value="app">App Development</TabsTrigger>
