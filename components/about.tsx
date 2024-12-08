@@ -10,12 +10,17 @@ export function About() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold mb-4">
+            <div className="mb-6">
+              <h2 className="text-3xl font-bold mb-6">
                 Let&apos;s Something
                 <br />
                 Know Great About Us
               </h2>
+
+              <p className="text-gray-600 border-l-4 border-blue-600 pl-2 md:text-lg mb-8 break-words">
+                We are a group of professional software developer team that run
+                by enthusiast for coding and design.
+              </p>
             </div>
             <div>
               <ul className="space-y-4">
