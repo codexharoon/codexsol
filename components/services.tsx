@@ -5,9 +5,9 @@ export function Services() {
   const services = [
     {
       icon: <CodeIcon className="w-8 h-8 text-primary" />,
-      title: "Web Development",
+      title: "UI/UX",
       description:
-        "We create responsive websites that work seamlessly across all devices",
+        "User-centric design that enhances user experience and satisfaction",
     },
     {
       icon: <GlobeIcon className="w-8 h-8 text-primary" />,
@@ -27,12 +27,14 @@ export function Services() {
   ];
 
   return (
-    <section className="py-12">
-      <div className="container mx-auto px-4">
-        <h2 className="text-center text-3xl font-bold mb-12">
+    <section className="py-12 h-screen flex items-center bg-blue-100">
+      <div className="container mx-auto px-4 flex flex-col lg:gap-10">
+        <h2 className="text-center text-3xl font-bold mb-12 ">
           We Provide Best Solutions
           <br />
-          For Your Business
+          <span className="border-b-4 border-blue-600 pb-2">
+            For Your Business
+          </span>
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service, index) => (
