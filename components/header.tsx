@@ -47,7 +47,7 @@ export function Header() {
               </Link>
             </nav>
             <div className="flex items-center space-x-4">
-              <Button className="bg-primary hover:bg-primary/90 text-white">
+              <Button className="hidden sm:block bg-primary hover:bg-primary/90 text-white">
                 Get Started
               </Button>
               <Menu

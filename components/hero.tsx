@@ -12,7 +12,7 @@ export function Hero() {
               Code x Sol
             </h1>
             <p className="text-xl text-gray-600 mb-8">Your Dream, We Build</p>
-            <p className="text-gray-600 mb-8">
+            <p className="text-gray-600 md:text-lg mb-8 break-words">
               We are a creative Software Development agency with a mission to
               create the most beautiful and user-friendly products that help
               businesses grow.
@@ -31,7 +31,7 @@ export function Hero() {
           </div>
 
           <iframe
-            className="w-[400px] h-[400px]"
+            className="w-[250px] h-[250px] sm:w-[400px] sm:h-[400px]"
             src="https://lottie.host/embed/34b32f1f-0fa2-4f50-8123-518810565f99/8k9aApXNgF.lottie"
           ></iframe>
         </div>

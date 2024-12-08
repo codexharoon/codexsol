@@ -32,7 +32,7 @@ export function Testimonials() {
   ];
 
   return (
-    <section className="py-12 bg-white">
+    <section className="p-12 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-center text-3xl font-bold mb-8">
           What Our Client Say
