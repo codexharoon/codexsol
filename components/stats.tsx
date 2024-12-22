@@ -70,12 +70,14 @@ export function Stats() {
     { value: 150, label: "Project Done" },
     { value: 99, label: "Reviews" },
     { value: 5, label: "Years Experience" },
-    { value: 0, label: "Great Achievements In Our Career" },
+    // { value: 0, label: "Great Achievements In Our Career" },
   ];
 
   return (
     <section className="py-12">
       <div className="container mx-auto px-4">
+        <hr className="mb-10" />
+
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           {stats.map((stat, index) => (
             <CountingNumber
@@ -85,6 +87,12 @@ export function Stats() {
               duration={2}
             />
           ))}
+
+          <div className="">
+            <p className="text-lg md:text-xl lg:text-2xl font-bold text-primary mb-2animate-bounce">
+              Great Achievements In Our Career
+            </p>
+          </div>
         </div>
       </div>
     </section>
