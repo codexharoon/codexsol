@@ -27,7 +27,7 @@ export function Services() {
   ];
 
   return (
-    <section className="py-12 lg:h-screen lg:flex lg:items-center bg-blue-100">
+    <section className="py-12 lg:h-screen lg:flex lg:items-center bg-gray-100">
       <div className="container mx-auto px-4 flex flex-col lg:gap-10">
         <h2 className="text-center text-3xl font-bold mb-12 ">
           We Provide Best Solutions

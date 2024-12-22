@@ -6,22 +6,25 @@ export function Blog() {
     {
       title: "Designer Focuses on creation & implementation",
       date: "20 January 2024",
-      image: "/blog1.jpg",
+      image: "/blog.png",
     },
     {
       title: "The importance of user experience in web design",
       date: "15 February 2024",
-      image: "/blog2.jpg",
+      image: "/blog.png",
     },
     {
       title: "Latest trends in responsive web development",
       date: "10 March 2024",
-      image: "/blog3.jpg",
+      image: "/blog.png",
     },
   ];
 
   return (
-    <section className="py-12" id="blog">
+    <section
+      className="pt-24 pb-12 lg:h-screen lg:flex lg:items-center bg-gradient-to-l from-blue-400"
+      id="blog"
+    >
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8">
           Every Single Update

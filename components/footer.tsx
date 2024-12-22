@@ -20,13 +20,22 @@ export function Footer() {
               businesses grow.
             </p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-gray-600 hover:text-[#0076BE]">
+              <Link
+                href="https://www.facebook.com/codexsols"
+                className="text-gray-600 hover:text-[#0076BE]"
+              >
                 <FacebookIcon className="w-5 h-5" />
               </Link>
-              <Link href="#" className="text-gray-600 hover:text-[#0076BE]">
+              <Link
+                href="https://www.x.com/codexsols"
+                className="text-gray-600 hover:text-[#0076BE]"
+              >
                 <TwitterIcon className="w-5 h-5" />
               </Link>
-              <Link href="#" className="text-gray-600 hover:text-[#0076BE]">
+              <Link
+                href="https://www.instagram.com/codexsols"
+                className="text-gray-600 hover:text-[#0076BE]"
+              >
                 <InstagramIcon className="w-5 h-5" />
               </Link>
             </div>
@@ -72,14 +81,28 @@ export function Footer() {
             <h3 className="font-bold mb-4">Our Members</h3>
             <div className="flex -space-x-2">
               <Image
-                src="/member1.jpg"
+                src="/client2.png"
                 alt="Team Member"
                 width={40}
                 height={40}
                 className="rounded-full border-2 border-white"
               />
               <Image
-                src="/member2.jpg"
+                src="/client1.png"
+                alt="Team Member"
+                width={40}
+                height={40}
+                className="rounded-full border-2 border-white"
+              />
+              <Image
+                src="/client3.png"
+                alt="Team Member"
+                width={40}
+                height={40}
+                className="rounded-full border-2 border-white"
+              />
+              <Image
+                src="/client4.png"
                 alt="Team Member"
                 width={40}
                 height={40}
@@ -88,8 +111,8 @@ export function Footer() {
             </div>
           </div>
         </div>
-        <div className="border-t pt-6 text-center text-gray-600">
-          © {new Date().getFullYear()} Code x Sol. All Rights Reserved.
+        <div className="border-t pt-6 text-center text-gray-600 font-bold">
+          &copy; {new Date().getFullYear()} Code x Sol. All Rights Reserved.
         </div>
       </div>
     </footer>

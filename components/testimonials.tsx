@@ -15,24 +15,24 @@ export function Testimonials() {
       name: "Quality Service",
       rating: 5,
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-      image: "/avatar1.jpg",
+      image: "/client1.png",
     },
     {
       name: "Very Much Helpful",
       rating: 5,
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-      image: "/avatar2.jpg",
+      image: "/client2.png",
     },
     {
       name: "Excellent Support",
       rating: 5,
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-      image: "/avatar3.jpg",
+      image: "/client3.png",
     },
   ];
 
   return (
-    <section className="p-12 bg-white">
+    <section className="p-12 bg-gray-100">
       <div className="container mx-auto px-4">
         <h2 className="text-center text-3xl font-bold mb-8">
           What Our Client Say
@@ -43,7 +43,7 @@ export function Testimonials() {
           <CarouselContent>
             {testimonials.map((testimonial, index) => (
               <CarouselItem key={index}>
-                <Card>
+                <Card className="bg-gradient-to-l from-blue-400">
                   <CardContent className="p-6 text-center">
                     <Image
                       src={testimonial.image}

@@ -4,7 +4,7 @@ import Image from "next/image";
 export function About() {
   return (
     <section
-      className="py-12 lg:h-screen lg:flex lg:items-center bg-gradient-to-l from-blue-300"
+      className="py-12 lg:h-screen lg:flex lg:items-center bg-gradient-to-l from-blue-400"
       id="about"
     >
       <div className="container mx-auto px-4">

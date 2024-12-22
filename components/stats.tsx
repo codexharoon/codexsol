@@ -76,7 +76,7 @@ export function Stats() {
   return (
     <section className="py-12">
       <div className="container mx-auto px-4">
-        <hr className="mb-10" />
+        {/* <hr className="mb-10" /> */}
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           {stats.map((stat, index) => (
