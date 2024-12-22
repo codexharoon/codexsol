@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { Menu } from "lucide-react";
+import { Menu, ChartNoAxesGantt } from "lucide-react";
 import { Sidebar } from "./sidebar";
 
 export function Header() {
@@ -50,10 +50,14 @@ export function Header() {
               <Button className="hidden sm:block bg-primary hover:bg-primary/90 text-white">
                 Get Started
               </Button>
-              <Menu
-                className="h-6 w-6 text-primary md:hidden cursor-pointer"
-                onClick={toggleSidebar}
-              />
+
+              <div className="relative group">
+                <ChartNoAxesGantt className="h-6 w-6 text-primary md:hidden cursor-pointer" />
+                <Menu
+                  className="h-6 w-6 text-primary md:hidden cursor-pointer absolute top-0 left-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                  onClick={toggleSidebar}
+                />
+              </div>
             </div>
           </div>
         </div>
