@@ -58,6 +58,7 @@ export function Contact() {
         throw new Error("Failed to send message")
       }
     } catch (error) {
+      console.error(error);
       toast({
         title: "Error",
         description: "Failed to send message. Please try again later.",
