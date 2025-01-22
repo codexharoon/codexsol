@@ -6,7 +6,7 @@ import { FacebookIcon, TwitterIcon, InstagramIcon } from "lucide-react";
 
 export function Footer() {
   return (
-    <footer className="bg-white pt-12 pb-6">
+    <footer className="bg-gray-100 pt-12 pb-6">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
@@ -14,7 +14,7 @@ export function Footer() {
               <Image src="/logo.png" alt="Code x Sol" width={40} height={40} />
               <span className="text-xl font-bold">Code x Sol</span>
             </Link>
-            <p className="text-gray-600 mb-4">
+            <p className="text-gray-600 mb-4 text-muted-foreground">
               We are a creative Software Development agency with a mission to
               create the most beautiful and user-friendly products that help
               businesses grow.
@@ -41,7 +41,7 @@ export function Footer() {
             </div>
           </div>
           <div>
-            <h3 className="font-bold mb-4">Services</h3>
+            <h3 className="font-bold mb-4 text-lg">Services</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="#" className="text-gray-600 hover:text-[#0076BE]">
@@ -66,7 +66,7 @@ export function Footer() {
             </ul>
           </div>
           <div>
-            <h3 className="font-bold mb-4">Newsletter</h3>
+            <h3 className="font-bold mb-4 text-lg">Newsletter</h3>
             <p className="text-gray-600 mb-4">
               Let&apos;s be friends! Get our latest updates.
             </p>
@@ -78,7 +78,7 @@ export function Footer() {
             </div>
           </div>
           <div>
-            <h3 className="font-bold mb-4">Our Members</h3>
+            <h3 className="font-bold mb-4 text-lg">Our Members</h3>
             <div className="flex -space-x-2">
               <Image
                 src="/client2.png"
